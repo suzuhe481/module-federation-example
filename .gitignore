@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Temp micro frontend files
+.__mf__temp
+.mf
