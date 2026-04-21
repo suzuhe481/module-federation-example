@@ -10,8 +10,15 @@ export default defineConfig({
     tailwindcss(),
     withZephyr({
       mfConfig: {
-        name: "profile-app",
+        name: "module-federation-example",
         filename: "remoteEntry.js",
+        remotes: {
+          "profile-section": {
+            type: "module",
+            name: "profile-section",
+            entry: "http://localhost:5174/remoteEntry.js",
+          },
+        },
         exposes: {
           "./AlertDialog": "./src/components/ui/alert-dialog",
           "./Button": "./src/components/ui/button",
