@@ -13,7 +13,7 @@ import { mockBoardData, mockTags } from "@/data/mockData";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ProfileHeader } from "@/components/Profile/ProfileHeader";
 import { ProfileNav } from "@/components/Profile/ProfileNav";
-import { ProfileSection } from "@/components/Profile/ProfileSection";
+import { ProfileSection } from "profile-section/ProfileSection";
 import { StatsSection } from "@/components/Profile/StatsSection";
 import { LimitsSection } from "@/components/Profile/LimitsSection";
 import { BoardSection } from "@/components/Profile/BoardSection";
